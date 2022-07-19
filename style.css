@@ -1,0 +1,83 @@
+.nav {
+  height: 90px;
+  border-bottom: 1px solid black;
+  align-items: center;
+  display: flex;
+}
+
+.nav-right-items {
+  display: flex;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.nav-item {
+  margin-left: 30px;
+}
+
+.main {
+  width: 1400px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.prices {
+  width:900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+}
+
+.price-item {
+  width: 300px;
+  height: 320px;
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.price-item-title {
+  font-size: 1.5rem;
+  background: rgba(0,0,0,.03);
+  text-align: center;
+  height: 53px;
+  line-height: 53px;
+  border-bottom: 1px solid black;
+}
+
+.price-item-price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.price-item-button {
+  width: 230px;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+  color: #007bff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #007bff;
+  margin-top: 20px;
+}
+
+.price-item-button--active {
+  background-color: #007bff;
+  color: #fff;
+}
